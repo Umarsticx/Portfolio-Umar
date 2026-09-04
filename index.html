@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umar · Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/letter-u.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+  </head>
+
+  <body>
+
+    <div class="mouse-follower"></div>
+
+    <header class="header" id="header">
+      <div class="header__container">
+        <a href="#home" class="header__logo">Umar</a>
+
+        <nav class="header__nav" id="header-nav">
+          <ul class="header__list">
+            <li>
+              <a href="#about" class="header__link">About</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="header__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="header__link">Contact</a>
+            </li>
+          </ul>
+
+          <button
+            class="header__close"
+            id="header-close"
+            aria-label="Close menu"
+          >
+            <i class="ri-close-line"></i>
+          </button>
+        </nav>
+        <button
+          class="header__toggle"
+          id="header-toggle"
+          aria-label="Open menu"
+        >
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container">
+          <div class="home__social">
+            <a
+              href="https://instagram.com/umarsticxx_"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+              aria-label="Instagram"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://github.com/Umarsticx/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+              aria-label="GitHub"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/umarawan001"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+
+          <div class="home__content">
+            <div class="home__text home__text-left">
+              <span class="home__greeting"> Hello, I'm </span>
+
+              <h1 class="home__title">Umar</h1>
+
+              <p class="home__role">
+                Software Engineering Student<br />
+                AI Enthusiast
+              </p>
+              <span class="home__age-badge">18 Y/O</span>
+            </div>
+
+            <div class="home__images">
+              <div class="home__image home__image-main">
+                <img src="assets/umar-main.png" alt="Umar" />
+              </div>
+
+              <span class="home__shape home__shape-1"></span>
+              <span class="home__shape home__shape-2"></span>
+              <span class="home__shape home__shape-3"></span>
+            </div>
+
+            <div class="home__text home__text-right">
+              <span class="home__greeting"> I build with </span>
+
+              <h2 class="home__profession">
+                AI &<br />
+                Technology
+              </h2>
+            </div>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <span class="home__scroll-text">Scroll Down</span>
+            <i class="ri-arrow-down-line"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container">
+          <div class="about__content">
+            <p class="about__subtitle" data-reveal>About Me</p>
+            <h2 class="about__title" data-reveal>
+              Learning, Building & Exploring
+            </h2>
+            <p class="about__description" data-reveal>
+              I am a software engineering student with a strong passion for
+              technology and innovation.I am a Beginner but i enjoy learning new
+              programming languages, frameworks, and tools to enhance my skills
+              and stay up-to-date with the latest industry trends. My goal is to
+              contribute to impactful projects that leverage technology to solve
+              real-world problems.
+            </p>
+            <p class="home__description">
+              I am a passionate software engineering student with a keen
+              interest in artificial intelligence, exploring AI tools and
+              automation. I enjoy exploring new technologies.
+            </p>
+
+            <div class="about__skills" data-reveal>
+              <h3 class="about__skills-title">Skills & Technologies</h3>
+              <div class="about__skills-list">
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git & GitHub</span>
+                <span>AI & Automation</span>
+                <span>n8n</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="projects__container container">
+          <p class="projects__subtitle" data-reveal>My Projects</p>
+          <h2 class="projects__title" data-reveal>Things I've Built</h2>
+
+          <div class="projects__grid">
+            <article class="project__card" data-reveal>
+              <div class="project__icon">
+                <i class="ri-code-s-slash-line"></i>
+              </div>
+              <h3 class="project__title">Python Projects</h3>
+              <p class="project__description">
+                Small Python projects created while learning programming and
+                problem solving.
+              </p>
+              <span class="project__tech">Python</span>
+            </article>
+
+            <article class="project__card" data-reveal>
+              <div class="project__icon"><i class="ri-robot-2-line"></i></div>
+              <h3 class="project__title">AI Automation</h3>
+              <p class="project__description">
+                Exploring AI tools and automation workflows to build useful
+                solutions.
+              </p>
+              <span class="project__tech">AI · n8n</span>
+            </article>
+
+            <article class="project__card" data-reveal>
+              <div class="project__icon"><i class="ri-layout-4-line"></i></div>
+              <h3 class="project__title">Portfolio Website</h3>
+              <p class="project__description">
+                A responsive personal portfolio built with HTML, CSS, and
+                JavaScript.
+              </p>
+              <span class="project__tech">HTML · CSS · JavaScript</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact__container container">
+          <p class="contact__subtitle" data-reveal>Get In Touch</p>
+          <h2 class="contact__title" data-reveal>Let's Work Together</h2>
+          <p class="contact__description" data-reveal>
+            Have a project in mind, an opportunity, or just want to say hi? My
+            inbox is always open.
+          </p>
+
+          <div class="contact__content" data-reveal>
+            <button
+              class="contact__email"
+              id="contact-email"
+              data-email="muhammadumarawan50@gmail.com"
+            >
+              <i class="ri-mail-line"></i>
+              <span id="contact-email-text">muhammadumarawan50@gmail.com</span>
+            </button>
+
+            <div class="contact__socials">
+              <a
+                href="https://instagram.com/umarsticxx_"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="home__social-link"
+                aria-label="Instagram"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a
+                href="https://github.com/Umarsticx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__social-link"
+                aria-label="GitHub"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/umarawan001/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__social-link"
+                aria-label="LinkedIn"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <a href="#home" class="footer__logo">Umar</a>
+        <p class="footer__copy">
+          &#169; <span id="footer-year"></span> Umar. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
